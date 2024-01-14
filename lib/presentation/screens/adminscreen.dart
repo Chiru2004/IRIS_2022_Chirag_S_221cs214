@@ -10,6 +10,7 @@ import 'package:messmanager/presentation/screens/managerequestscreen.dart';
 import 'package:messmanager/presentation/screens/menuviewscreen.dart';
 class AdminScreen extends StatefulWidget
 {
+
   const AdminScreen({super.key});
 @override
   State<AdminScreen> createState() {
@@ -328,7 +329,11 @@ if(userkey != "")
                             if(Messes[index].occupied != 0)
                             {
                                ScaffoldMessenger.of(context).clearSnackBars();
-                               ScaffoldMessenger.of(context).showSnackBar(const SnackBar(content: Text("Deallocate all the users before you delete the Mess")));
+                               ScaffoldMessenger.of(context).showSnackBar(
+                                const SnackBar(
+                                  content: Text("Deallocate all the users before you delete the Mess")
+                                  )
+                                  );
                             }
                             else
                           {
@@ -347,7 +352,12 @@ if(userkey != "")
           onPressed: (){
                   //remove the mess 
                   databaseref.child("Messes/${keys[index]}").remove();
-                  onentry();
+                 //change to make the list dynamic
+                  setState(() {
+                    //
+                     onentry();   //function to build up the list again
+                  });
+                 
                   Navigator.of(context).pop();
                   },
           child: const Text("Confirm"),

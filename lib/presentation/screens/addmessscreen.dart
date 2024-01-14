@@ -63,10 +63,12 @@ Mess enteredmess=Mess(title: "",
 void showMessentrySheet(Days day)
 {
    showModalBottomSheet(
+    //To add scroll control
+    isScrollControlled: true,   // scroll control is made true
     context: context,
     builder: (context) {
       return Container(
-        height: double.infinity,
+        height: 600,
         color: const Color.fromARGB(255, 223, 222, 222),
         child: Padding(
           padding: const EdgeInsets.all(6),
