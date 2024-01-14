@@ -1,16 +1,39 @@
-# messmanager
+# MessManager
 
-A new Flutter project.
+My flutter project for the IRIS app team recruitment.
 
-## Getting Started
+## Application Details
+<details>
+<summary>  About the application </summary>
+<br> This app helps students register for their college food mess and grants them additional features like viewing menus and food options, requesting a mess change, and managing their mess finances. It makes the whole process simple, straightforward, and easy to use. With MessManager, managing your college food mess is simple, convenient, and stress-free
+</details>
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<details>
+  <summary>
+    List of features implemented:
+  </summary>
+  <br>
+  <details>
+    <summary>
+      Role based login:
+    </summary>
+     Both the user and admin can open their corresponnding section the app using the same page.<br>
+    
+      <br>
+User: After signing up through the sign page, if he is loggi<br>
+    
+    Both the user and 
+  </details>
+    <br>
+  <details>
+    <summary>
+      Mess Registration:
+    </summary>
+  </details>
+    <br>
+  <details>
+    <summary>
+      Mess Change:
+    </summary>
+  </details>
+</details>
