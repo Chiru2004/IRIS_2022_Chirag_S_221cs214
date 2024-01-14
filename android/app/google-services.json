@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "715329198566",
+    "firebase_url": "https://irismessapp-default-rtdb.firebaseio.com",
+    "project_id": "irismessapp",
+    "storage_bucket": "irismessapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:715329198566:android:3606c4a39356032ce4de27",
+        "android_client_info": {
+          "package_name": "com.example.messmanager"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSpRo3mF52AwugeXWP19lUIt1ipYoJ5gQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
