@@ -13,18 +13,27 @@ My flutter project for the IRIS app team recruitment.
     List of features implemented:
   </summary>
   <br>
-  <details>
-    <summary>
-      Role based login:
-    </summary>
-     Both the user and admin can open their corresponnding section the app using the same page.<br>
+ Role based login:
     
-      <br>
-User: After signing up through the sign page, if he is loggi<br>
-    
-    Both the user and 
-  </details>
+ Both the user and admin can open their corresponnding section the app using the same page. 
+ <br><br>
+ <img src="/assets/icon/Screenshot_1705234025.png" alt="My Image" width="170" height="350"> 
+   <br>
+  ##  User: 
+  
+  User Registration:
+    The user must sign up for the mess for the first time through the signup :<br>
+    Once the sign up is done, user has to register for the mess,<br>
+    which incudes chosing the mess, selecting the data and the corresponding mess balance.
     <br>
+    <br>
+    <img src="/assets/icon/signup_user.png" alt="My Image" width="170" height="350"> -> <img src="/assets/icon/Landingpage_user.png" alt="My Image" width="170" height="350"> -> <img src="/assets/icon/messbalance_and_date.png" alt="My Image" width="170" height="350"> -> <img src="/assets/icon/available_mess.png" alt="My Image" width="170" height="350"> -> <img src="/assets/icon/confirming_mess_regiistration.png" alt="My Image" width="170" height="350">
+<br> Finally after registering the User detail along with the mess detail will be shown.
+<br><br>
+<img src="/assets/icon/messdetails_and_user_details.png" alt="My Image" width="170" height="350">
+## Admin
+
+
   <details>
     <summary>
       Mess Registration:
