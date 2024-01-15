@@ -91,9 +91,35 @@ In this way the corresponding mess changes can be handled by the admins.
     </summary>
      Note: To access the admin screen just type admin in the username and press enter
      <br>
-    <a href="https://drive.google.com/drive/folders/1sYOsiO0OoUzm4vHy0a9gEdSFQKVSlUDo?usp=drive_link.">Link to Google Drive File</a>
+    <a href="https://drive.google.com/drive/folders/1sYOsiO0OoUzm4vHy0a9gEdSFQKVSlUDo?usp=drive_link.">Link to APK</a>
   <br>
   <br> Video for the app: <br>
-   <a href="https://drive.google.com/drive/folders/1IJbD00SqSI2sdXhzFMYlFCyh0oqezDGJ?usp=sharing">Link to Google Drive File</a>
+   <a href="https://drive.google.com/drive/folders/1IJbD00SqSI2sdXhzFMYlFCyh0oqezDGJ?usp=sharing">Link to Vedio</a>
   </details>
- 
+  <details>
+    <summary>
+      List of references: <br>
+    </summary>
+     <a href="https://youtu.be/THCkkQ-V1-8?si=BfN39e9PYNFCsxRj">Flutterly</a>
+    <br>
+    <a href="https://www.udemy.com/">Udemy course</a>
+  </details>
+    
+  <details>
+  <summary>
+    List of non-implemented features:
+  </summary>
+     - Proper statemanagement technique
+     <br>
+     - Dynamic deduction of mess balance using firebase functions
+     <br>
+     - Notifications to both user and admin using Firebase cloud messaging
+     <br>
+     - A very UI
+  </details>
+ <details>
+   <summary>
+     List of design tools used
+   </summary>
+   - Figma
+ </details>
