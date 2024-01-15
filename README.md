@@ -21,30 +21,31 @@ My flutter project for the IRIS app team recruitment.
    <br>
   ##  User: 
   
-  User Registration:
-    The user must sign up for the mess for the first time through the signup :<br>
-    Once the sign up is done, user has to register for the mess,<br>
-    which incudes chosing the mess, selecting the data and the corresponding mess balance.
+ ### 1. User Registration:
+ 
+  The user must sign up for the mess for the first time through the signup :<br>
+  Once the sign up is done, user has to register for the mess,<br>
+  which includes chosing the mess, selecting the data and the corresponding mess balance.
     <br>
     <br>
     <img src="/assets/icon/signup_user.png" alt="My Image" width="170" height="350"> -> <img src="/assets/icon/Landingpage_user.png" alt="My Image" width="170" height="350"> -> <img src="/assets/icon/messbalance_and_date.png" alt="My Image" width="170" height="350"> -> <img src="/assets/icon/available_mess.png" alt="My Image" width="170" height="350"> -> <img src="/assets/icon/confirming_mess_regiistration.png" alt="My Image" width="170" height="350">
 <br> Finally after registering the User detail along with the mess detail will be shown.
 <br><br>
 <img src="/assets/icon/messdetails_and_user_details.png" alt="My Image" width="170" height="350">
-<br>
-Mess balance top up:
-Once the mess balance is less than the per day cost of the mess, the user can increase the mess balance
-- Select the side drawer in the user screen
-- If mess balance is less then per day cost, then "Add mess balance" will be enabled
-- Enter the amount to be added
-- confirm the top up
+<br><br>
+### 2. Mess balance top up: <br>
+  Once the mess balance is less than the per day cost of the mess, the user can increase the mess balance
+  - Select the side drawer in the user screen
+  - If mess balance is less then per day cost, then "Add mess balance" will be enabled
+  - Enter the amount to be added
+  - Confirm the additon of the balance
 <br>
 <img src="/assets/icon/messb1.jpg" alt="My Image" width="170" height="350"> -> <img src="/assets/icon/messb2.jpg" alt="My Image" width="170" height="350"> -> <img src="/assets/icon/messb3.jpg" alt="My Image" width="170" height="350"> -> <img src="/assets/icon/messb4.jpg" alt="My Image" width="170" height="350">
 <br>
 
 ## Admin
 Admin has several access in the app.<br>
-Admin can add a new mess, and also delete the mess:
+### 1. Adding a new mess and delete the mess:
 <br>
 Admin can set the parameters such as the 
 - Mess type
@@ -55,7 +56,8 @@ Admin can set the parameters such as the
   <br><br>
   <img src="/assets/icon/loginadmin.jpg" alt="My Image" width="170" height="350"> -> <img src="/assets/icon/messviewb.jpg" alt="My Image" width="170" height="350"> -> <img src="/assets/icon/messadd.jpg" alt="My Image" width="170" height="350"> -> <img src="/assets/icon/messviewaf.jpg" alt="My Image" width="170" height="350">
   <br> Similarly the mess can be deleted.
-  <br>
+  <br><br>
+### 2. User Deallocation from any mess: <br>
  Mess admin can view the users of each mess and can individually deallocate each user from the mess<br>
 The procedure is simple
 - select the messuser button in the mess screen,
@@ -72,9 +74,16 @@ This app has the feature, wherein
 - the request is sent to the user
 - The admin has to either accept or reject the request
 - If accepted the mess of the user will be changed
-<br> following are the screenshots to show the flow:
+<br> Following are the screenshots to show the flow:
 <br>
-  
+### Sending request from the user side: 
+<br><br>
+<img src="assets/icon/messc1.jpg" alt="My Image" width="170" height="350"> -> <img src="assets/icon/messc2.jpg" alt="My Image" width="170" height="350"> -> <img src="assets/icon/messc3.jpg" alt="My Image" width="170" height="350"> -> <img src="assets/icon/messc4.jpg" alt="My Image" width="170" height="350"> <br>
+<br> 
+### Managing request from the user side:
+<br>
+<img src="assets/icon/messc5.jpg" alt="My Image" width="170" height="350"> -> <img src="assets/icon/messc6.jpg" alt="My Image" width="170" height="350"> -> <img src="assets/icon/messc7.jpg" alt="My Image" width="170" height="350"> <br>
+In this way the corresponding mess changes can be handled by the admins.
 </details>
 <details>
     <summary>
@@ -83,5 +92,7 @@ This app has the feature, wherein
      Note: To access the admin screen just type admin in the username and press enter
      <br>
     <a href="https://drive.google.com/drive/folders/1sYOsiO0OoUzm4vHy0a9gEdSFQKVSlUDo?usp=drive_link.">Link to Google Drive File</a>
+  <br>
+   <a href="https://drive.google.com/drive/folders/1IJbD00SqSI2sdXhzFMYlFCyh0oqezDGJ?usp=sharing">Link to Google Drive File</a>
   </details>
  
