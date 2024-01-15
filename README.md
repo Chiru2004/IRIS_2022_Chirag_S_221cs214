@@ -93,6 +93,7 @@ In this way the corresponding mess changes can be handled by the admins.
      <br>
     <a href="https://drive.google.com/drive/folders/1sYOsiO0OoUzm4vHy0a9gEdSFQKVSlUDo?usp=drive_link.">Link to Google Drive File</a>
   <br>
+  <br> Video for the app: <br>
    <a href="https://drive.google.com/drive/folders/1IJbD00SqSI2sdXhzFMYlFCyh0oqezDGJ?usp=sharing">Link to Google Drive File</a>
   </details>
  
