@@ -23,6 +23,9 @@ class _AdminRequestState extends State<AdminRequest>
   bool norequests = false;
 bool isdatafetching =true;
 List<requestdata> requests=[];
+// dynamic value
+int dynamichangedmess = 0;
+int dynamiccurrentmess = 0;
 //Function to fetch the data
 
 void fetchtherequets() async
@@ -53,6 +56,8 @@ setState(() {
 });
 
 }
+
+
 
 @override
   void initState() 
@@ -114,7 +119,9 @@ Widget build(BuildContext context) {
               child: const Text("Cancel"),
                     ),
         TextButton(
-          onPressed: (){
+          onPressed: ()async {
+
+
                  //Delete in the MessRequests
                  widget.instance.ref().child("MessRequests/Requests/${requests[index].studentid}").remove();
                  
@@ -130,16 +137,26 @@ Widget build(BuildContext context) {
                    "roll":requests[index].studentroll
                   });
 
-                  //change in mess numbers
-
+                  // change in mess numbers
+                  // fetch the dynamic number,,,
+                  // 
+                await  widget.instance.ref().child("Messes/${requests[index].currentmessid}/occupants").once().then((value){
+                  print(value.snapshot.value.toString()); //changes
+                  dynamiccurrentmess=int.parse(value.snapshot.value.toString());
+                });
+                await  widget.instance.ref().child("Messes/${requests[index].changedmessid}/occupants").once().then((value){
+                  print(value.snapshot.value.toString()); //changes
+                  dynamichangedmess=int.parse(value.snapshot.value.toString());
+                });
+                  
                   //decrease number by one
                   widget.instance.ref().child("Messes/${requests[index].currentmessid}").update({
-                    "occupants":requests[index].currentmessoccupants!-1
+                    "occupants":dynamiccurrentmess-1   //dynamic data fetch
                   });
 
                   //increase number by one
                   widget.instance.ref().child("Messes/${requests[index].changedmessid}").update({
-                    "occupants":requests[index].changemessoccupants!+1
+                    "occupants":dynamichangedmess+1    //dynamic data fetch
                   });
 
                   //change the mess id in the User
@@ -149,6 +166,9 @@ Widget build(BuildContext context) {
                     }
                   );
                   setState(() {
+                    dynamiccurrentmess=0;
+                    dynamichangedmess=0;
+                    requests=[];
                      fetchtherequets();
                   });
                  
