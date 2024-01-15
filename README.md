@@ -32,8 +32,21 @@ My flutter project for the IRIS app team recruitment.
 <br><br>
 <img src="/assets/icon/messdetails_and_user_details.png" alt="My Image" width="170" height="350">
 ## Admin
+Admin has several access in the app.<br>
+Admin can add a new mess, and also delete the mess too. He can set the parameters such as the 
+- Mess type
+- Per day cost of the mess
+- Total occupants in the mess
+- The mess menu
+  <br> here is the flow of through the screen shots:
+  <br><br>
+  <img src="/assets/icon/loginadmin.jpg" alt="My Image" width="170" height="350"> -> <img src="/assets/icon/messviewb.jpg" alt="My Image" width="170" height="350"> -> <img src="/assets/icon/messadd.jpg" alt="My Image" width="170" height="350"> -> <img src="/assets/icon/messviewaf.jpg" alt="My Image" width="170" height="350">
+  <br> Similarly the mess can be deleted.
+  <br>
+ Mess admin can view the users of each mess and can individually deallocate each user from the mess<br>
+ here is vedio tutorial for the same:
 
-
+ 
   <details>
     <summary>
       Mess Registration:
