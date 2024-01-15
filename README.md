@@ -31,9 +31,22 @@ My flutter project for the IRIS app team recruitment.
 <br> Finally after registering the User detail along with the mess detail will be shown.
 <br><br>
 <img src="/assets/icon/messdetails_and_user_details.png" alt="My Image" width="170" height="350">
+<br>
+Mess balance top up:
+Once the mess balance is less than the per day cost of the mess, the user can increase the mess balance
+- Select the side drawer in the user screen
+- If mess balance is less then per day cost, then "Add mess balance" will be enabled
+- Enter the amount to be added
+- confirm the top up
+<br>
+<img src="/assets/icon/messb1.jpg" alt="My Image" width="170" height="350"> -> <img src="/assets/icon/messb2.jpg" alt="My Image" width="170" height="350"> -> <img src="/assets/icon/messb3.jpg" alt="My Image" width="170" height="350"> -> <img src="/assets/icon/messb4.jpg" alt="My Image" width="170" height="350">
+<br>
+
 ## Admin
 Admin has several access in the app.<br>
-Admin can add a new mess, and also delete the mess too. He can set the parameters such as the 
+Admin can add a new mess, and also delete the mess:
+<br>
+Admin can set the parameters such as the 
 - Mess type
 - Per day cost of the mess
 - Total occupants in the mess
@@ -44,7 +57,14 @@ Admin can add a new mess, and also delete the mess too. He can set the parameter
   <br> Similarly the mess can be deleted.
   <br>
  Mess admin can view the users of each mess and can individually deallocate each user from the mess<br>
-
+The procedure is simple
+- select the messuser button in the mess screen,
+- all users will be shown
+- press deallocate, and then confirm it
+- the user will be deallocated from that mess
+<br>
+<img src="/assets/icon/messviewaf.jpg" alt="My Image" width="170" height="350"> -> <img src="/assets/icon/messdusers.jpg" alt="My Image" width="170" height="350"> -> <img src="/assets/icon/messdconfirm.jpg" alt="My Image" width="170" height="350"> -> <img src="/assets/icon/messdaf.jpg" alt="My Image" width="170" height="350">
+<br> Thus the user will be deallocated
 
 
 
