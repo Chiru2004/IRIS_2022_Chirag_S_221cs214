@@ -44,9 +44,7 @@ Admin can add a new mess, and also delete the mess too. He can set the parameter
   <br> Similarly the mess can be deleted.
   <br>
  Mess admin can view the users of each mess and can individually deallocate each user from the mess<br>
- here is vedio tutorial for the same:
-<br>
-![Demo Video](assets/icon/userdeallocate.mp4)
+
 
 
 
