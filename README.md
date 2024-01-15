@@ -66,19 +66,22 @@ The procedure is simple
 <img src="/assets/icon/messviewaf.jpg" alt="My Image" width="170" height="350"> -> <img src="/assets/icon/messdusers.jpg" alt="My Image" width="170" height="350"> -> <img src="/assets/icon/messdconfirm.jpg" alt="My Image" width="170" height="350"> -> <img src="/assets/icon/messdaf.jpg" alt="My Image" width="170" height="350">
 <br> Thus the user will be deallocated
 
-
-
-
- 
-  <details>
-    <summary>
-      Mess Registration:
-    </summary>
-  </details>
-    <br>
-  <details>
-    <summary>
-      Mess Change:
-    </summary>
-  </details>
+## Mess Change
+This app has the feature, wherein 
+- the user can apply for a mess change
+- the request is sent to the user
+- The admin has to either accept or reject the request
+- If accepted the mess of the user will be changed
+<br> following are the screenshots to show the flow:
+<br>
+  
 </details>
+<details>
+    <summary>
+     Apk file for the app: <br>
+    </summary>
+     Note: To access the admin screen just type admin in the username and press enter
+     <br>
+    <a href="https://drive.google.com/drive/folders/1sYOsiO0OoUzm4vHy0a9gEdSFQKVSlUDo?usp=drive_link.">Link to Google Drive File</a>
+  </details>
+ 
